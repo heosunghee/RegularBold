@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* responsive - mobile */
+/* max-width:767px */
+
+header .logo a img {
+    height: 46px;
+    margin-top: 7px;
+}
+
+header .m-menu a img {
+    height: 46px;
+    margin-top: 7px;
+}
+
+article.intro {
+    height: auto;
+    position: static;
+    padding-bottom: 300px;
+    background-size: auto 300px;
+    /*배경이미지 높잇값을 padding-bottom값과 동일하게 설정*/
+    background-position: right bottom;
+}
+
+.intro .txt-box {
+    position: static;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.intro .txt-box .des-en {
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.intro .btn {
+    position: static;
+    padding: 10px 12px;
+    margin-bottom: 60px;
+}
+
+article.works {
+    margin-top: 60px;
+}
+
+.works .img-wrap .img-box {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.works .img-wrap .img-box ~ .img-box {
+    margin-left: 0;
+}
+
+article.about {
+    margin-top: 60px;
+    height: 400px;
+    background-size: auto 38%;
+}
+
+.about p {
+    width: 100%;
+}
+
+.about .btnmore {
+    padding: 10px 12px;
+}
+
+article.news {
+    margin-top: 60px;
+}
+
+.news .sec-tit {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news > p {
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.3;
+    word-break: keep-all;
+}
+
+.news .box {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.news .box ~ .box {
+    margin-left: 0;
+}
+
+.contact {
+    margin-top: 60px;
+    height: 400px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.contact .sec-tit {
+    font-size: 38.4px;
+    font-size: 2.4rem;
+}
+
+.contact .btn-more2 {
+    padding: 10px 12px;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer .footer-box {
+    width: 100%;
+    float: none;
+    margin-bottom: 12px;
+}
+
+footer .footer-box h3 {
+    margin-bottom: 6px;
+}
+
+footer .top {
+    bottom: 60px;
+}
